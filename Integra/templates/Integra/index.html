@@ -1,0 +1,19 @@
+{% extends 'Integra/base.html' %}
+{% load static %} 
+
+
+{% block content %}
+
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">Integra</h1>
+        <p class="splash-subhead">
+            Esta é apenas uma pagina de exemplo
+        </p>
+        <p>
+            <a href={% url 'login' %} class="pure-button pure-button-primary">Login</a>
+        </p>
+    </div>
+</div>
+
+{% endblock %}
